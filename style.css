@@ -1,0 +1,57 @@
+h1 {
+    margin-top: 25px;
+}
+p {
+    line-height: 1.9;
+}
+.wrapper {
+    display: flex;
+    max-width: 920px;
+    margin: 0 auto;
+}
+.svgsedans {
+    margin-top: 40px;
+    margin-right: 60px;
+}
+.sedans {
+    background-color: orange;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+.suvs {
+    background-color: #1c96c5;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+.luxury {
+    background-color: #154734;
+    height: 500px;
+    color: white;
+    text-align: center;
+}
+.btn-sedan-1 {
+    margin-right: 0px;
+}
+.cars {
+    display: grid;
+    grid-template-columns: 3fr;
+    grid-template-rows: 1fr;
+    
+}
+.btn {
+    padding: 12px 32px;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.btn-green{
+    color:#154734;
+}
+.btn-blue {
+    color:#1c96c5;
+}
+.btn-orange {
+    color: orange;
+}
